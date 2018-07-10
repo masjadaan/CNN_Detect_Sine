@@ -22,7 +22,7 @@ The scaling factor are:
 | 3. The landmark and the scaled sine wave are shifted to the right or to the left rondomly. 
 
 This how the combined signals look like for the first 5 classes
-![alt text](https://raw.githubusercontent.com/masjadaan/Convolutional-Neural-Network/master/Detecting%20Sine%20Wave/Original_Signal.png)
+![alt text](https://raw.githubusercontent.com/masjadaan/CNN_Detect_Sine/master/Original_Signal.png)
 
 | 4. A Noise from a normal (Gaussian) distribution with standard deviation equals 1 is generated, then each vector
 from the dataset gets two noise vectors. 
@@ -34,9 +34,9 @@ from the dataset gets two noise vectors.
       | x_Test       : (1600, 124, 1)  
       
 The following figures show the combined signals when standard deviation  sigma = 1 (Top) where the original signals can be distinguished, and sigma = 5 (Bottom) the original signal is hidden within the noise
-![alt text](https://raw.githubusercontent.com/masjadaan/Convolutional-Neural-Network/master/Detecting%20Sine%20Wave/Signal_Noise_sigma1.png)
+![alt text](https://raw.githubusercontent.com/masjadaan/CNN_Detect_Sine/master/Signal_Noise_sigma1.png)
 
-![alt text](https://raw.githubusercontent.com/masjadaan/Convolutional-Neural-Network/master/Detecting%20Sine%20Wave/Signal_Noise_sigma5.png)
+![alt text](https://raw.githubusercontent.com/masjadaan/CNN_Detect_Sine/master/Signal_Noise_sigma5.png)
 
 
 **Training the model**
